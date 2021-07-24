@@ -11,7 +11,7 @@ main {
     left: 1100px;
     top: 130px;
 }
-.bottom-right {
+.top-right {
     position: absolute;
     left: 600px;
 } 
@@ -20,6 +20,11 @@ main {
     bottom: 20px;
 }
 footer {
-    text-align: right;
-    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.bottom-right {
+position: relative;
+left: 400px;
+top: 40px;
 }
