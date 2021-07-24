@@ -1,0 +1,29 @@
+main {
+    margin-left: auto;
+    margin-right:auto;
+    width: 700px;
+}
+.foto {
+    position:relative;
+    left: 1100px;
+    top: 130px;
+}
+.top-right {
+    position: absolute;
+    left: 600px;
+} 
+.upper {
+    position: relative;
+    bottom: 20px;
+}
+footer {
+    margin-left: 600px;
+}
+.bottom-right {
+position: relative;
+left: 400px;
+top: 40px;
+}
+body {
+    background: no-repeat top/60% url("../rsschool-cv/images/cv-bg2.jpg");
+    }
