@@ -22,6 +22,12 @@ h1, h2 {
     font-family: "Prompt", sans-serif;
     text-align: center;
 }
+h2 {
+    border-bottom: 10px solid #F5AE31 ;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 ul {
     list-style-type: none;
