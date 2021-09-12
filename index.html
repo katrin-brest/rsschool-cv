@@ -6,53 +6,104 @@
     <!-- External CSS -->
    <link rel="stylesheet" href="styles.css">
    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b733ccda6.js" crossorigin="anonymous"></script>
   </head>
   
   <body>
     <header >   
-      <H1 class="top-right">Katsiaryna Talkachova</H1>
-      <img class="foto" src="images/myfoto.jpg" alt="photo" width="120">
+      <div >
+        <img class = "photo" src="images/myfoto.jpg" alt="photo" width="200">
+      </div>
+      <div>
+        <H1>Katsiaryna Talkachova</H1>
+        <h2>Junior Frontend Developer</h2>
+        <p> <i class="fas fa-mobile-alt"></i>  +375(29)7938298</p>
+        <p> <i class="fas fa-envelope"></i>  katsiaryna.n@gmail.com</p>
+      </div>
     </header>
 
-    <main class="upper">
-      <section>
-        <h2>Contacts:</h2>  
-        <ul>
-          <li>tel: +375297938298</li>
-          <li>e-mail: katsiaryna.n@gmail.com </li>
-        </ul>
-      </section>
-      <section>
+    <main>
+        <section>
         <h2>About me:</h2>
-        <p>Now I'm a student of RSSchool JS/FE and my goal is to do my best in studying HTML, CSS and JS and become a true Frontend-developer in near future.</p>
+        <p>Now I'm <b>a student of RSSchool JS/FE</b> and my goal is to do my best in studying HTML, CSS and JS and become a true Frontend-developer in near future.</p>
         <p>I have no experience of working in IT. I'm an economist and accountant by profession. But I strive to change my life radically and capable of fast learning.</p>
-        <p><b>My strong points:</b> desire for new knowledge; responsibility; self-reliance; self-organization; constant work at self-improvement; ability to make decisions; command work; non-conflict.</p>
+        <p><b>My strong points</b> are desire for new knowledge; responsibility; self-reliance; self-organization; constant work at self-improvement; ability to make decisions; command work; non-conflict.</p>
+        <p><b>My English</b> now is B1 level. Don't stop learning more and practicing. </p>
       </section>
-      <section>
-        <h2>My skills</h2>
+      <section class = "twoColomns">
+        <div>
+          <h2>My skills</h2>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
+          <li> <i class="fas fa-check"></i> HTML 5 </li>
+          <li> <i class="fas fa-check"></i> CSS 3</li>
+          <li><i class="fas fa-check"></i> JavaScript</li>
         </ul>
+        </div>
+        <div>
+          <h2>My Education</h2>
+        <ul>
+          <li><i class="fas fa-check"></i>  Brest State Technical University, economist</li>
+          <li><i class="fas fa-check"></i>  RS School JS/FE Stage 0 - <i>completed</i></li>
+          <li><i class="fas fa-check"></i>  RS School JS/FE Stage 1 - <i>in progress</i></li>
+        </ul>
+        </div>
       </section>
-      <section>
-        <h2>My code</h2>
-        <img src="images/code.jpg" alt="code example" height="400">
-      </section>
-      <section>
-        <h2>My Education</h2>
-        <ol>
-          <li> Brest State Technical University, economist</li>
-          <li>JS School JS/FE</li>
-        </ol>
+      <section >
+        <h2>Code Example</h2>
+        <div class = "twoColomns">
+        <div>
+          <p><b>Codewars</b></p>
+          <pre>
+            <code>
+              function decToBin(d) {
+                if (d === 0) {
+                  return '0';
+                }  
+                let i = d;
+                let bin = '';
+                while(i >= 1) {
+                  bin = `${i % 2}${bin}`;
+                  i = Math.floor(i / 2);
+                }
+                return bin;
+              }
+            </code>
+          </pre>
+
+        </div>
+
+        <div>
+          <p><b>HTML</b> </p>
+          <pre><code class="language-html">
+                       &lt;div class=&quot;header-container&quot;&gt;
+            &lt;div class=&quot;logo-inline&quot;&gt;
+                &lt;img src=&quot;assets/svg/Vector.svg&quot; alt=&quot;logo&quot;&gt;
+                &lt;p class=&quot;logo&quot;&gt;Louvre&lt;/p&gt;
+            &lt;/div&gt;
+             &lt;nav&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&quot;#visiting&quot;&gt;Visiting&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#explore&quot;&gt;Explore&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#video&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#tickets&quot;&gt;Tickets&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#contacts&quot;&gt;Contacts&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+            &lt;/div&gt;
+          </div>
+      </div> 
       </section>
     </main>
 
     <footer>
-     <a href="https://github.com/katrin-brest" target="_blank">My GitHub</a>
-     <a class="bottom-right" href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="logo" height="50"></a>
-     <p><i>Составлено <time datetime="2021-07-23 17:00"> 23 июля 2021г.</time></i></p>
+     <a href="https://github.com/katrin-brest" target="_blank"><img src="images/github-logo.png" alt="git" height = "50"></a>
+     <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="rss" height="50"></a>
+     <p><i><time datetime="2021-09-12 17:00"> 12th September 2021</time></i></p>
    </footer>
   </body>
 </html>

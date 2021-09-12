@@ -1,29 +1,37 @@
-main {
+body {
     margin-left: auto;
     margin-right:auto;
-    width: 700px;
+    width: 1000px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
-.foto {
-    position:relative;
-    left: 1100px;
-    top: 130px;
+header {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
-.top-right {
-    position: absolute;
-    left: 600px;
-} 
-.upper {
-    position: relative;
-    bottom: 20px;
+.fas {
+    color:#F5AE31;
 }
+.photo {
+    border-radius: 110px;
+    border: 7px solid #F5AE31;
+}
+
+h1, h2 {
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+.twoColomns {
+    display:flex;
+    justify-content: space-around;
+}
+
 footer {
-    margin-left: 600px;
-}
-.bottom-right {
-position: relative;
-left: 400px;
-top: 40px;
-}
-body {
-    background: no-repeat top/60% url("../rsschool-cv/images/cv-bg2.jpg");
+    display: flex;
+    justify-content: space-between;
     }
