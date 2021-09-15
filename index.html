@@ -12,18 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Prompt:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4b733ccda6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </head>
   
   <body>
     <header >   
-      <div >
+      <div class = "bgphoto" >
         <img class = "photo" src="images/myfoto.jpg" alt="photo" width="200">
       </div>
       <div>
         <H1>Katsiaryna Talkachova</H1>
         <h2>Junior Frontend Developer</h2>
-        <p> <i class="fas fa-mobile-alt"></i>  +375(29)7938298</p>
-        <p> <i class="fas fa-envelope"></i>  katsiaryna.n@gmail.com</p>
+        <ul>
+        <li> <i class="fas fa-mobile-alt"></i>  +375(29)7938298</li>
+        <li> <i class="fas fa-envelope"></i>  katsiaryna.n@gmail.com</li>
+      </ul>
       </div>
     </header>
 
@@ -35,7 +40,7 @@
         <p><b>My strong points</b> are desire for new knowledge; responsibility; self-reliance; self-organization; constant work at self-improvement; ability to make decisions; command work; non-conflict.</p>
         <p><b>My English</b> now is B1 level. Don't stop learning more and practicing. </p>
       </section>
-      <section class = "twoColomns">
+      <section class = "twoCol">
         <div>
           <h2>My skills</h2>
         <ul>
@@ -55,46 +60,46 @@
       </section>
       <section >
         <h2>Code Example</h2>
-        <div class = "twoColomns">
-        <div>
-          <p><b>Codewars</b></p>
-          <pre>
-            <code>
-              function decToBin(d) {
-                if (d === 0) {
-                  return '0';
-                }  
-                let i = d;
-                let bin = '';
-                while(i >= 1) {
-                  bin = `${i % 2}${bin}`;
-                  i = Math.floor(i / 2);
-                }
-                return bin;
-              }
-            </code>
-          </pre>
+        <div class = "twoCol">
+        <div class="inner">
+          <h3>JavaScript</h3>
+          <pre><code class="language-js">
+            
+     function decToBin(d) {
+        if (d === 0) {
+          return '0';
+         }  
+        let i = d;
+        let bin = '';
+        while(i >= 1) {
+           bin = `${i % 2}${bin}`;
+           i = Math.floor(i / 2);
+        }
+        return bin;
+      }
 
+
+            </code></pre>
         </div>
 
-        <div>
-          <p><b>HTML</b> </p>
+        <div class="inner">
+          <h3>HTML</h3>
           <pre><code class="language-html">
-                       &lt;div class=&quot;header-container&quot;&gt;
-            &lt;div class=&quot;logo-inline&quot;&gt;
-                &lt;img src=&quot;assets/svg/Vector.svg&quot; alt=&quot;logo&quot;&gt;
-                &lt;p class=&quot;logo&quot;&gt;Louvre&lt;/p&gt;
-            &lt;/div&gt;
-             &lt;nav&gt;
-                &lt;ul&gt;
-                &lt;li&gt;&lt;a href=&quot;#visiting&quot;&gt;Visiting&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;#explore&quot;&gt;Explore&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;#video&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;#tickets&quot;&gt;Tickets&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;#contacts&quot;&gt;Contacts&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/nav&gt;
-            &lt;/div&gt;
+  &lt;div class=&quot;header-container&quot;&gt;
+      &lt;div class=&quot;logo-inline&quot;&gt;
+        &lt;img src=&quot;assets/svg/Vector.svg&quot; alt=&quot;logo&quot;&gt;
+        &lt;p class=&quot;logo&quot;&gt;Louvre&lt;/p&gt;
+       &lt;/div&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#visiting&quot;&gt;Visiting&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#explore&quot;&gt;Explore&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#video&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#tickets&quot;&gt;Tickets&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#contacts&quot;&gt;Contacts&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/div&gt;
           </div>
       </div> 
       </section>

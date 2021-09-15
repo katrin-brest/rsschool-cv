@@ -7,7 +7,7 @@ body {
 }
 header {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 .fas {
@@ -18,7 +18,16 @@ header {
     border: 7px solid #F5AE31;
 }
 
-h1, h2 {
+.bgphoto {
+    background-color:#F5AE31 ;
+    width: 225px;
+    height: 225px;
+    border-radius: 125px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1, h2, h3 {
     font-family: "Prompt", sans-serif;
     text-align: center;
 }
@@ -32,12 +41,22 @@ h2 {
 ul {
     list-style-type: none;
 }
-.twoColomns {
-    display:flex;
-    justify-content: space-around;
+.twoCol {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.inner {
+    margin: 0 15px;
+    flex-grow: 1; 
+    }
+
+code {
+    border-radius: 30px;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     }
+
