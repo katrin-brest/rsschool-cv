@@ -59,9 +59,6 @@ code {
     font-size: 1em;
 
 }
-video {
-    width: 80%;
-}
 
 .video {
     display: flex;
@@ -70,6 +67,10 @@ video {
     align-items: center;
     margin-bottom: 5%;
     
+}
+iframe{
+    width: 560px; 
+    height: 315px;
 }
 footer {
     display: flex;
@@ -86,5 +87,9 @@ footer {
    }
    code {
        font-size: 0.8em;
+   }
+   iframe {
+       width: 310px;
+       height: 174px;
    }
    }
