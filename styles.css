@@ -59,6 +59,9 @@ code {
     font-size: 1em;
 
 }
+video {
+    width: 80%;
+}
 
 .video {
     display: flex;
