@@ -4,6 +4,8 @@
 ## Contacts
 
 * **tel** : +375297938298
+* **whatsApp**: +375297938298
+* **github**: https://github.com/katrin-brest 
 
 * **e-mail** : katsiaryna.n@gmail.com
 
