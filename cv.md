@@ -5,7 +5,7 @@
 
 * **tel** : +375297938298
 * **whatsApp**: +375297938298
-* **github**: https://github.com/katrin-brest 
+* **github**: [GitHub](https://github.com/katrin-brest) 
 
 * **e-mail** : katsiaryna.n@gmail.com
 
@@ -17,10 +17,13 @@ I have no experience of working in IT. I'm an economist and accountant by profes
 **My strong points:** desire for new knowledge; responsibility; self-reliance; self-organization; constant work at self-improvement; ability to make decisions; command work; non-conflict.
 
 ## My skills
- HTML, CSS, JS
+ HTML, CSS, JS, Git, Figma
 
 ## My experience
- RSSchool Stage 0
+ * RSSchool Stage 0
+ * RSSchool Stage 1
+ * Codewars
+
 
 ## My Code
 ````
