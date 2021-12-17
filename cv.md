@@ -6,7 +6,6 @@
 * **tel** : +375297938298
 * **whatsApp**: +375297938298
 * **github**: [GitHub](https://github.com/katrin-brest) 
-
 * **e-mail** : katsiaryna.n@gmail.com
 
 ## About me:
@@ -46,4 +45,4 @@ function decToBin(d) {
 * Student of RSSchool Stage 0
 
 ## My English 
-B1 *unconfirmed*
+B1 - Intermediate *unconfirmed*
