@@ -1,5 +1,5 @@
 # Katsiaryna Talkachova
-![Foto](./images/myfoto2.jpg)
+![Foto](./myfoto.jpg)
 
 ## Contacts
 
