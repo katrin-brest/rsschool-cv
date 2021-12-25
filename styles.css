@@ -88,7 +88,10 @@ code {
 iframe{
     width: 560px; 
     height: 315px;
+    border: 0;
+    
 }
+
 footer {
     display: flex;
     justify-content: space-around;
