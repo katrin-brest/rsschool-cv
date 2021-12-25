@@ -10,8 +10,11 @@ header {
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 40px;
 }
+
+ 
+
 .fas {
     color:#F5AE31;
 }
@@ -47,6 +50,20 @@ li {
     padding-bottom: 8px;
 
 }
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #F5AE31;
+    font-family: "Prompt", sans-serif;
+    font-size: 24px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
 .twoCol {
     display: flex;
     justify-content: space-around;
@@ -77,6 +94,17 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     }
+    .projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .myprojects {
+        margin-bottom: 5%;
+    }
+
+
+
 @media screen and (min-width: 320px) and (max-width: 1000px) {
     body {
         max-width: 90vw;

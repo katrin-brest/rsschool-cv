@@ -19,12 +19,22 @@
   </head>
   
   <body>
+    <nav>
+      <ul class="menu">
+        <li> <a href="#about">About me</a></li>
+        <li> <a href="#skills">Skills & Education</a></li>
+        <li> <a href="#code">Code Example</a></li>
+        <li> <a href="#video">Video CV</a></li>
+        <li> <a href="#project">My Projects</a></li>
+      </ul>
+    </nav>
+    
     <header >   
       <div class = "bgphoto" >
         <img class = "photo" src="images/myfoto.jpg" alt="photo" width="200">
       </div>
       <div>
-        <H1>Katsiaryna Talkachova</H1>
+        <h1>Katsiaryna Talkachova</h1>
         <h2>Junior Frontend Developer</h2>
         <ul>
         <li> <i class="fas fa-mobile-alt"></i>  +375(29)7938298</li>
@@ -32,10 +42,11 @@
       </ul>
       </div>
     </header>
+    
 
     <main>
       <section>
-        <h2>About me</h2>
+        <h2 id="about">About me</h2>
         <p>Now I'm <b>a student of RSSchool JS/FE</b> and my goal is to do my best in studying HTML, CSS and JS and become a true Frontend-developer in near future.</p>
         <p>I have no experience of working in IT. I'm an economist and accountant by profession. But I strive to change my life radically and capable of fast learning.</p>
         <p><b>My strong points</b> are desire for new knowledge; responsibility; self-reliance; self-organization; constant work at self-improvement; ability to make decisions; command work; non-conflict.</p>
@@ -43,7 +54,7 @@
       </section>
       <section class = "twoCol">
         <div>
-          <h2>My skills</h2>
+          <h2 id="skills">My skills</h2>
         <ul>
           <li> <i class="fas fa-check"></i>   HTML 5 </li>
           <li> <i class="fas fa-check"></i>   CSS 3</li>
@@ -60,7 +71,7 @@
         </div>
       </section>
       <section >
-        <h2>Code Example</h2>
+        <h2 id="code">Code Example</h2>
         <div class = "twoCol">
         <div class = "inner">
           <h3>JavaScript</h3>
@@ -106,9 +117,17 @@
         </div>
        </section>
        <section class="video">
-         <h2>Video CV</h2>
+         <h2 id="video">Video CV</h2>
          <iframe src="https://www.youtube.com/embed/A18UEsA8lx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+       </section>
+       <section class="myprojects">
+         <h2 id="project">My projects</h2>
+         <div class="projects">
+           <a href="https://rolling-scopes-school.github.io/katrin-brest-JSFE2021Q3/museum/" target="_blank"> <img src="./images/louvre.jpg" alt="museum" height="200"></a>
+           <a href="https://katrin-brest.github.io/cssMemSlider/cssMemSlider/index.html" target="_blank"><img src="./images/cat.jpg" alt="cssMemSlider" height="200"></a>
+           <a href="https://katrin-brest.github.io/grid/" target="_blank"><img src="./images/tulip.jpg" alt="grid" height="200"></a>
+         </div>
        </section>
 
 
@@ -117,7 +136,7 @@
     <footer>
      <a href="https://github.com/katrin-brest" target="_blank"><img src="images/github-logo.png" alt="git" height = "50"></a>
      <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="rss" height="50"></a>
-     <p><i><time datetime="2021-09-12 17:00"> 12th September 2021</time></i></p>
+     <p><i><time datetime="2021-12-25 15:00"> 25th December 2021</time></i></p>
    </footer>
   </body>
 </html>
