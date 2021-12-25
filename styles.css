@@ -10,8 +10,11 @@ header {
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 40px;
 }
+
+ 
+
 .fas {
     color:#F5AE31;
 }
@@ -46,6 +49,20 @@ ul {
 li {
     padding-bottom: 8px;
 
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #F5AE31;
+    font-family: "Prompt", sans-serif;
+    font-size: 24px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
 }
 .twoCol {
     display: flex;
