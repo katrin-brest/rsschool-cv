@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katsiaryna Talkachova</title>
+    <!-- External CSS -->
+   <link rel="stylesheet" href="styles.css">
+   <link rel="shortcut icon" href="images/fav3.ico" type="image/x-icon">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b733ccda6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  
+  <body>
+    <nav>
+      <ul class="menu">
+        <li> <a href="#about">About me</a></li>
+        <li> <a href="#skills">Skills & Education</a></li>
+        <li> <a href="#code">Code Example</a></li>
+        <li> <a href="#video">Video CV</a></li>
+        <li> <a href="#project">My Projects</a></li>
+      </ul>
+    </nav>
+    <header >   
+      <div class = "bgphoto" >
+        <img class = "photo" src="images/myfoto.jpg" alt="photo" width="200">
+      </div>
+      <div>
+        <h1>Katsiaryna Talkachova</h1>
+        <h2>Junior Frontend Developer</h2>
+        <ul>
+        <li> <i class="fas fa-mobile-alt"></i>  +375(29)7938298</li>
+        <li> <i class="fas fa-envelope"></i>  katsiaryna.n@gmail.com</li>
+      </ul>
+      </div>
+    </header>
+    
+
+    <main>
+      <section>
+        <h2 id="about">About me</h2>
+        <p>Now I'm <b>a student of RSSchool JS/FE</b> and my goal is to do my best in studying HTML, CSS and JS and become a true Frontend-developer in near future.</p>
+        <p>I have no experience of working in IT. I'm an economist and accountant by profession. But I strive to change my life radically and capable of fast learning.</p>
+        <p><b>My strong points</b> are desire for new knowledge; responsibility; self-reliance; self-organization; constant work at self-improvement; ability to make decisions; command work; non-conflict.</p>
+        <p><b>My English</b> now is B1 level. Don't stop learning more and practicing. </p>
+      </section>
+      <section class = "twoCol">
+        <div>
+          <h2 id="skills">My skills</h2>
+        <ul>
+          <li> <i class="fas fa-check"></i>   HTML 5 </li>
+          <li> <i class="fas fa-check"></i>   CSS 3</li>
+          <li><i class="fas fa-check"></i>   JavaScript</li>
+        </ul>
+        </div>
+        <div>
+          <h2>My Education</h2>
+        <ul>
+          <li><i class="fas fa-check"></i>   Brest State Technical University, economist</li>
+          <li><i class="fas fa-check"></i>   RS School JS/FE Stage 0 - <i>completed</i></li>
+          <li><i class="fas fa-check"></i>   RS School JS/FE Stage 1 - <i>in progress</i></li>
+        </ul>
+        </div>
+      </section>
+      <section >
+        <h2 id="code">Code Example</h2>
+        <div class = "twoCol">
+        <div class = "inner">
+          <h3>JavaScript</h3>
+          <pre><code class="language-js">
+            
+     function decToBin(d) {
+        if (d === 0) {
+          return '0';
+         }  
+        let i = d;
+        let bin = '';
+        while(i >= 1) {
+           bin = `${i % 2}${bin}`;
+           i = Math.floor(i / 2);
+        }
+        return bin;
+      }
+
+
+            </code></pre>
+        </div>
+
+        <div class = "inner">
+          <h3>HTML</h3>
+          <pre><code class="language-html">
+  &lt;div class=&quot;header-container&quot;&gt;
+      &lt;div class=&quot;logo-inline&quot;&gt;
+        &lt;img src=&quot;assets/svg/Vector.svg&quot; alt=&quot;logo&quot;&gt;
+        &lt;p class=&quot;logo&quot;&gt;Louvre&lt;/p&gt;
+       &lt;/div&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#visiting&quot;&gt;Visiting&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#explore&quot;&gt;Explore&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#video&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#tickets&quot;&gt;Tickets&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#contacts&quot;&gt;Contacts&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/div&gt;
+  </code> </pre>
+          </div>
+        </div>
+       </section>
+       <section class="video">
+         <h2 id="video">Video CV</h2>
+         <iframe src="https://www.youtube.com/embed/A18UEsA8lx8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       </section>
+       <section class="myprojects">
+         <h2 id="project">My projects</h2>
+         <div class="projects">
+           <a href="https://rolling-scopes-school.github.io/katrin-brest-JSFE2021Q3/museum/" target="_blank"> <img src="./images/louvre.jpg" alt="museum" height="200"></a>
+           <a href="https://katrin-brest.github.io/cssMemSlider/cssMemSlider/index.html" target="_blank"><img src="./images/cat.jpg" alt="cssMemSlider" height="200"></a>
+           <a href="https://katrin-brest.github.io/grid/" target="_blank"><img src="./images/tulip.jpg" alt="grid" height="200"></a>
+         </div>
+       </section>
+
+
+    </main>
+
+    <footer>
+     <a href="https://github.com/katrin-brest" target="_blank"><img src="images/github-logo.png" alt="git" height = "50"></a>
+     <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="rss" height="50"></a>
+     <p><i><time datetime="2021-12-25 15:00"> 25th December 2021</time></i></p>
+   </footer>
+  </body>
+</html>
